@@ -1,0 +1,85 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'  // Google Services plugin
+
+android {
+    //the compression of webp file during build causes problem with FileDescriptor in ContentProvider.
+    aaptOptions {
+        noCompress "webp"
+    }
+    compileSdkVersion 30
+    defaultConfig {
+        applicationId "com.p4v4n.stickerapp"
+        minSdkVersion 23
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        def contentProviderAuthority = applicationId + ".stickercontentprovider"
+        // Creates a placeholder property to use in the manifest.
+        manifestPlaceholders =
+                [contentProviderAuthority: contentProviderAuthority]
+        // Adds a new field for the authority to the BuildConfig class.
+        buildConfigField("String",
+                "CONTENT_PROVIDER_AUTHORITY",
+                "\"${contentProviderAuthority}\"")
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+
+    packagingOptions {
+        exclude 'lib/*/libnative-imagetranscoder.so'
+        exclude 'lib/*/libnative-filters.so'
+    }
+
+
+}
+
+
+
+
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'com.google.firebase:firebase-core:18.0.0'
+    implementation 'com.google.android.play:core:1.8.3'
+
+    def fresco_version = '2.2.0'
+    implementation "com.facebook.fresco:fresco:$fresco_version"
+    implementation "com.facebook.fresco:webpsupport:$fresco_version"
+    implementation "com.facebook.fresco:animated-webp:$fresco_version"
+    implementation "com.facebook.fresco:animated-base:$fresco_version"
+
+    implementation 'eu.dkaratzas:android-inapp-update:1.0.5'
+
+
+
+
+    // Declare the dependency for the Firebase SDK for Google Analytics
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation platform('com.google.firebase:firebase-bom:26.1.1')
+    implementation 'com.google.android.gms:play-services-ads:19.6.0'
+    implementation fileTree (dir : 'libs', include : [ '*.jar' ])
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+
+
+}

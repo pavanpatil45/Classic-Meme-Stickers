@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "338816342055",
+    "project_id": "classic-meme-stickers-app",
+    "storage_bucket": "classic-meme-stickers-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338816342055:android:b25bc5235acb4ba6285602",
+        "android_client_info": {
+          "package_name": "com.p4v4n.stickerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338816342055-rgcla77s10oa69us4docjb70uhjeojm6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMtut-tl42R80GzjhRiKUXiVGBm8XU8EM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338816342055-rgcla77s10oa69us4docjb70uhjeojm6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
