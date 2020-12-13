@@ -17,7 +17,7 @@ I made this for the purpose of inserting and testing Admob ads. and Firebase ana
             // https://developers.google.com/admob/android/banner
              mAdView.loadAd(new AdRequest.Builder().build());
          }
-         ```
+```
             
 > Banner ad Layout in Activity.xml
 ```java
