@@ -17,6 +17,7 @@ I made this for the purpose of inserting and testing Admob ads. and Firebase ana
             // https://developers.google.com/admob/android/banner
              mAdView.loadAd(new AdRequest.Builder().build());
          }
+         ```
             
 > Banner ad Layout in Activity.xml
 ```java
@@ -27,6 +28,7 @@ I made this for the purpose of inserting and testing Admob ads. and Firebase ana
             android:foregroundGravity="center"
             ads:adSize="BANNER"
             ads:adUnitId="@string/admob_banner_id"/>
+            ```
             
 
 > Interstitial ad Method to load ad in Activity.java            
@@ -44,6 +46,7 @@ I made this for the purpose of inserting and testing Admob ads. and Firebase ana
         // Interstitial Ad load Request
         interstitial.loadAd(adIRequest);
     }
+    ```
     
     
 > Interstitial ad Method to display ad in Activity.java 
@@ -59,6 +62,7 @@ I made this for the purpose of inserting and testing Admob ads. and Firebase ana
             }
         });
     }
+    ```
     
     
 > Test ad Ids in strings.xml
@@ -66,6 +70,7 @@ I made this for the purpose of inserting and testing Admob ads. and Firebase ana
     <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
     <string name="admob_banner_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
     <string name="admob_interstitial_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    ```
 
 
    
