@@ -1,7 +1,7 @@
 ## Classic Meme Stickers app
 
 This is one of my personal favourite, it is simply perfect for the meme lovers.  
-its is based on the official Repository provided by Whatsapp - https://github.com/WhatsApp
+its is based on the official Repository provided by Whatsapp - https://github.com/WhatsApp  
 I made this for the purpose of inserting and testing Admob ads. and Firebase analytics.
 
 > Admob Banner ad Method in Activity.java
