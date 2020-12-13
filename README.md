@@ -1,6 +1,6 @@
 ## Classic Meme Stickers app
 
-it is based on the official Repository provided by Whatsapp - https://github.com/WhatsApp  
+It is based on the official Repository provided by Whatsapp - https://github.com/WhatsApp  
 This is one of my personal favourite, simply perfect for the meme lovers.  
 I made this app for the purpose of inserting and testing Admob ads. and Firebase analytics.
 
