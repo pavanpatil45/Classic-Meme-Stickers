@@ -5,6 +5,7 @@ This is one of my personal favourite, simply perfect for the meme lovers.
 I made this app for the purpose of inserting and testing Admob ads. and Firebase analytics.
 
 
+## Simple Banner and Interstitial ads Methods 
 
 > Banner ad Method in Activity.java
 ```java
