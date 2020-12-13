@@ -19,7 +19,7 @@ I made this for the purpose of inserting and testing Admob ads. and Firebase ana
          }
             
 > Banner ad Layout in Activity.xml
-
+```java
      <com.google.android.gms.ads.AdView
             android:id="@+id/adView"
             android:layout_width="match_parent"
@@ -30,7 +30,7 @@ I made this for the purpose of inserting and testing Admob ads. and Firebase ana
             
 
 > Interstitial ad Method to load ad in Activity.java            
-
+```java
     public void initInterstitial() {
         MobileAds.initialize(this, getString(R.string.admob_app_id));
         AdRequest adIRequest = new AdRequest.Builder().build();
@@ -47,7 +47,7 @@ I made this for the purpose of inserting and testing Admob ads. and Firebase ana
     
     
 > Interstitial ad Method to display ad in Activity.java 
-
+```java
     public void displayInterstitial()
     {
         // If Interstitial Ads are loaded then show else show nothing.
@@ -62,7 +62,7 @@ I made this for the purpose of inserting and testing Admob ads. and Firebase ana
     
     
 > Test ad Ids in strings.xml
-
+```java
     <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
     <string name="admob_banner_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
     <string name="admob_interstitial_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
