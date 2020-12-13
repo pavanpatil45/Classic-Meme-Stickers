@@ -4,8 +4,30 @@ This is one of my personal favourite, it is simply perfect for the meme lovers.
 its is based on the official Repository provided by Whatsapp - https://github.com/WhatsApp
 I made this for the purpose of inserting and testing Admob ads. and Firebase analytics.
 
-> Hello
->Hello
+> Admob Banner ad Method in Activity.java
+
+     public void displaybanner() {
+            MobileAds.initialize(this, initializationStatus -> {
+            });
+            AdView mAdView = findViewById(R.id.adView);
+            // AdResources adResources = new AdResources();
+
+            // https://developers.google.com/admob/android/banner
+             mAdView.loadAd(new AdRequest.Builder().build());
+         }
+            
+> Admob Banner ad Layout Method in Activity.xml
+
+     <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foregroundGravity="center"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/admob_banner_id"/>
+            
+
+> Admob Interstitial ad Method to initialize(load) ad in Activity.java            
 
     public void initInterstitial() {
         MobileAds.initialize(this, getString(R.string.admob_app_id));
@@ -20,7 +42,9 @@ I made this for the purpose of inserting and testing Admob ads. and Firebase ana
         // Interstitial Ad load Request
         interstitial.loadAd(adIRequest);
     }
-//==================================================================================
+    
+    
+> Admob Interstitial ad Method to display ad in Activity.java 
 
     public void displayInterstitial()
     {
@@ -33,16 +57,8 @@ I made this for the purpose of inserting and testing Admob ads. and Firebase ana
             }
         });
     }
-//==================================================================================
 
-    public void displaybanner() {
-            MobileAds.initialize(this, initializationStatus -> {
-            });
-            AdView mAdView = findViewById(R.id.adView);
-            // AdResources adResources = new AdResources();
 
-            // https://developers.google.com/admob/android/banner
-            mAdView.loadAd(new AdRequest.Builder().build());
-        }
+   
 
  
