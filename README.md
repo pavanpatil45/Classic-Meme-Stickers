@@ -1,11 +1,13 @@
 ## Classic Meme Stickers app
 
-This is one of my personal favourite, it is simply perfect for the meme lovers.  
-its is based on the official Repository provided by Whatsapp - https://github.com/WhatsApp  
+This is one of my personal favourite, simply perfect for the meme lovers.  
+it is based on the official Repository provided by Whatsapp - https://github.com/WhatsApp  
 I made this for the purpose of inserting and testing Admob ads. and Firebase analytics.
 
-> Admob Banner ad Method in Activity.java
 
+
+> Banner ad Method in Activity.java
+```java
      public void displaybanner() {
             MobileAds.initialize(this, initializationStatus -> {
             });
@@ -16,7 +18,7 @@ I made this for the purpose of inserting and testing Admob ads. and Firebase ana
              mAdView.loadAd(new AdRequest.Builder().build());
          }
             
-> Admob Banner ad Layout in Activity.xml
+> Banner ad Layout in Activity.xml
 
      <com.google.android.gms.ads.AdView
             android:id="@+id/adView"
@@ -27,7 +29,7 @@ I made this for the purpose of inserting and testing Admob ads. and Firebase ana
             ads:adUnitId="@string/admob_banner_id"/>
             
 
-> Admob Interstitial ad Method to initialize(load) ad in Activity.java            
+> Interstitial ad Method to load ad in Activity.java            
 
     public void initInterstitial() {
         MobileAds.initialize(this, getString(R.string.admob_app_id));
@@ -44,7 +46,7 @@ I made this for the purpose of inserting and testing Admob ads. and Firebase ana
     }
     
     
-> Admob Interstitial ad Method to display ad in Activity.java 
+> Interstitial ad Method to display ad in Activity.java 
 
     public void displayInterstitial()
     {
@@ -57,6 +59,13 @@ I made this for the purpose of inserting and testing Admob ads. and Firebase ana
             }
         });
     }
+    
+    
+> Test ad Ids in strings.xml
+
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
 
 
    
