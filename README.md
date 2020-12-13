@@ -7,7 +7,7 @@ I made this app for the purpose of inserting and testing Admob ads. and Firebase
 ## Screenshots
 
 <div style={{display: flex; flex-direction: row}}>
-  <img src="https://user-images.githubusercontent.com/47142604/102009908-9f146200-3d60-11eb-9580-942710c59761.jpg" width="270" /> &nbsp;&nbsp;
+  <img src="https://user-images.githubusercontent.com/47142604/102009908-9f146200-3d60-11eb-9580-942710c59761.jpg" width="270" /> &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://user-images.githubusercontent.com/47142604/102009913-a50a4300-3d60-11eb-9c89-7abc39fcaf93.jpg" width="270" />
   <img src="https://user-images.githubusercontent.com/47142604/102009917-a9cef700-3d60-11eb-905e-2e6b0203c2cd.jpg" width="270" />
 </div>
