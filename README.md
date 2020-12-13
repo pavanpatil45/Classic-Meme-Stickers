@@ -67,7 +67,7 @@ I made this app for the purpose of inserting and testing Admob ads. and Firebase
 ```
 --------------------------------------------------------------------------   
     
-> Test ad Ids in strings.xml
+> Test ad IDs in strings.xml
 ```java
     <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
     <string name="admob_banner_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
