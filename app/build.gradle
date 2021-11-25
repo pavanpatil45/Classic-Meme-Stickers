@@ -6,11 +6,11 @@ android {
     aaptOptions {
         noCompress "webp"
     }
-    compileSdkVersion 30
+    compileSdkVersion 31
     defaultConfig {
         applicationId "com.p4v4n.stickerapp"
         minSdkVersion 23
-        targetSdkVersion 30
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -44,6 +44,7 @@ android {
         exclude 'lib/*/libnative-imagetranscoder.so'
         exclude 'lib/*/libnative-filters.so'
     }
+    buildToolsVersion '31.0.0'
 
 
 }
@@ -79,7 +80,7 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:26.1.1')
     implementation 'com.google.android.gms:play-services-ads:19.6.0'
     implementation fileTree (dir : 'libs', include : [ '*.jar' ])
-    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
 
 
 }

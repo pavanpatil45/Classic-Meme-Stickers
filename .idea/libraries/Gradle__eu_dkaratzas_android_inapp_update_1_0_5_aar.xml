@@ -1,14 +1,22 @@
 <component name="libraryTable">
   <library name="Gradle: eu.dkaratzas:android-inapp-update:1.0.5@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/611637bbd05e9a3b9c6e84049eb84eda/jetified-android-inapp-update-1.0.5/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/611637bbd05e9a3b9c6e84049eb84eda/jetified-android-inapp-update-1.0.5/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/611637bbd05e9a3b9c6e84049eb84eda/jetified-android-inapp-update-1.0.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/611637bbd05e9a3b9c6e84049eb84eda/jetified-android-inapp-update-1.0.5/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/eu.dkaratzas/android-inapp-update/1.0.5/605176dedd748d8a505465d55ae10360fcadbcd6/android-inapp-update-1.0.5-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/eu.dkaratzas/android-inapp-update/1.0.5/605176dedd748d8a505465d55ae10360fcadbcd6/android-inapp-update-1.0.5-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/eu.dkaratzas/android-inapp-update/1.0.5/605176dedd748d8a505465d55ae10360fcadbcd6/android-inapp-update-1.0.5-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/eu.dkaratzas/android-inapp-update/1.0.5/605176dedd748d8a505465d55ae10360fcadbcd6/android-inapp-update-1.0.5-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/eu.dkaratzas/android-inapp-update/1.0.5/605176dedd748d8a505465d55ae10360fcadbcd6/android-inapp-update-1.0.5-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/eu.dkaratzas/android-inapp-update/1.0.5/ec12a46a565b12495af9d902ef221f5df00f4a0a/android-inapp-update-1.0.5-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/eu.dkaratzas/android-inapp-update/1.0.5/ec12a46a565b12495af9d902ef221f5df00f4a0a/android-inapp-update-1.0.5-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/eu.dkaratzas/android-inapp-update/1.0.5/ec12a46a565b12495af9d902ef221f5df00f4a0a/android-inapp-update-1.0.5-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/eu.dkaratzas/android-inapp-update/1.0.5/ec12a46a565b12495af9d902ef221f5df00f4a0a/android-inapp-update-1.0.5-sources.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/eu.dkaratzas/android-inapp-update/1.0.5/ec12a46a565b12495af9d902ef221f5df00f4a0a/android-inapp-update-1.0.5-sources.jar!/" />
     </SOURCES>
   </library>

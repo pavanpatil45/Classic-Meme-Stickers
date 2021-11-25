@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Classic Meme Stickers-Classic_Meme_Stickers.iml" filepath="$PROJECT_DIR$/.idea/modules/Classic Meme Stickers-Classic_Meme_Stickers.iml" group="Classic_Meme_Stickers" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Classic Meme Stickers/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Classic-Meme-Stickers.iml" filepath="$PROJECT_DIR$/.idea/modules/Classic-Meme-Stickers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Classic-Meme-Stickers.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Classic-Meme-Stickers.app.iml" />
     </modules>
   </component>
 </project>
